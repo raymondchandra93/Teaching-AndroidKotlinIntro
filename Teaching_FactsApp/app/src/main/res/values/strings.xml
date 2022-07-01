@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Raymond\'s Fun Facts App</string>
+    <string name="fact1_text">
+        Sure, an exact Darth Vader replica
+        would make an awesome Halloween costume
+        but it’s probably a little over budget.
+        According to Time, it would cost the average person $18.3 million
+        to make a real-life replica of the infamous
+        black suit that features a voice modifier, breathing apparatus,
+        prosthetic limbs, and an augmented reality filter.
+    </string>
+    <string name="fact2_text">
+        Giraffes are the tallest mammal in the world
+        They can grow up to 5.5 meters!
+        Even new-born giraffes are taller than most humans.
+    </string>
+    <string name="backButton_text">Back</string>
+    <string name="nextButton_text">Next</string>
+</resources>

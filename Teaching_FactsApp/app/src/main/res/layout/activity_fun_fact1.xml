@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FunFact1">
+
+    <TextView
+        android:id="@+id/fact1TitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="60dp"
+        android:text="Fun Fact #1 - Darth Vader"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/fact1ImageView"
+        android:layout_width="188dp"
+        android:layout_height="210dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fact1TitleText"
+        app:srcCompat="@drawable/darthvader" />
+
+    <TextView
+        android:id="@+id/fact1Description"
+        android:layout_width="266dp"
+        android:layout_height="157dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/fact1_text"
+        android:textAlignment="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fact1ImageView" />
+
+    <Button
+        android:id="@+id/fact1BackButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/backButton_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fact1Description" />
+
+    <Button
+        android:id="@+id/fact1NextButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/nextButton_text"
+        app:layout_constraintStart_toEndOf="@+id/fact1BackButton"
+        app:layout_constraintTop_toBottomOf="@+id/fact1Description" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
